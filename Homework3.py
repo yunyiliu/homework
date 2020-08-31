@@ -34,11 +34,10 @@ i = 0
 train_data = []
 test_date = []
 for item in df:
-	if(i % 3 == 0 && i < image_count) {
+	if(i % 3 == 0 && i < image_count):
 		train_data[i] = item
-	} else {
+	else:
 		test_data[i] = item
-	}
 	i = i + 1
 
 convolutional_model.compile(
