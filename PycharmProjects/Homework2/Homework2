@@ -5,6 +5,22 @@ def mse_loss(y_true, y_pred):
     # y_true and y_pred are numpy arrays of the same length
     return ((y_true - y_pred) ** 2).mean()
 
+def relu(x):
+    A = np.maximum(0, x)
+    return A, x
+
+def deriv_relu(x):
+    # Derivative of relu:
+    fx = x.relu(x)
+    if fx > 0:
+       return 1
+    else:
+       return 0
+
+
+def leaky_relu(x):
+    A = np.maximum(0.1 * x, x)
+    return A, x
 
 def deriv_nonlin(x):
     return x * (1 - x)
