@@ -1,0 +1,13 @@
+li.navbar-manue {
+	background: url('../images/pipe@2x.png') no-repeat center right;
+	background-size: 5px 40px;
+}
+
+li.navbar-manue-last {
+	padding-right: 150px;
+}
+
+.navbar-brand {
+	padding-left: 150px;
+}
+

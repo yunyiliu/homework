@@ -1,0 +1,190 @@
+.container_cv{
+	margin: 80px auto;
+	font-family: "Palatino Linotype", sans-serif;
+	width: 800px;
+}
+
+
+
+.name .photo {
+	float: right;
+	width: 150px;
+}
+
+p.name {
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+p.job {
+	font-size: 18px;
+}
+
+.name_job {
+	float: left;
+	line-height: 6px;
+	margin: 10px 15px;
+}
+
+.address{
+	font-size: 15px;
+	float: left;
+	line-height: 8px;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.header_section, .middle_section,.bottom_section, footer, .cv_footer{
+	width: 100%;
+	float: left;
+}
+
+
+
+.first_others {
+	float: left;
+	margin: 10px 30px 0 10px;
+	width: 15%;
+	line-height: 20px;
+}
+
+.first_others_last {
+	float: left;
+	margin: 30px 0 0 10px;
+	width: 15%;
+	line-height: 20px;
+}
+
+.first {
+	color: black;
+	font-size: 60px;
+	font-family: sans-serif;
+	float: left;
+}
+
+.icon {
+	float: left;
+	width: 35px;
+	height: 35px;
+	margin: 15px 6px 0 0;
+}
+
+.icon_circle {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 2px 10px 0 0;
+}
+
+.section_title {
+	color: black;
+	font-size: 20px;
+	text-transform : uppercase;
+	font-weight: bold;
+	margin-top: 18px;
+}
+
+.section_left {
+	width: 45%;
+	float: left;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+.section_right {
+	width: 45%;
+	float: right;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+ul.skill_list li{
+	padding: 0.15em;
+	font-weight: 600;
+}
+
+ul.project_list {
+	float: left;
+	list-style: none;
+	width: 95%;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+ul.education_list {
+	float: left;
+	list-style: none;
+	width: 90%;
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+.li_content {
+	padding: 0.15em;
+	font-size: 15px;
+}
+
+.li_title {
+	font-weight: bold;
+}
+
+.li_year {
+	color: rgba(0, 0, 0, 0.53);
+}
+
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    color: black;
+}
+
+
+.cv_hr {
+	width: 100%;
+	color: black;
+	border-width: 1px;
+	margin-top: 0px;
+	float: left;
+	padding: 0;
+}
+
+.cv_footer .footer {
+	font-size: 15px;
+	width: 800px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.53);
+}
+
+.cv_footer {
+	margin: 10px 0 10px 0;
+}
+
+.objects {
+	font-size: 16px;
+	margin-left: 40px;
+}
+
+.a:hover {
+    color: #ff5a00;
+}
+
+
+
+
+
+
+
+
+
+
+
+

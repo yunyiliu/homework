@@ -1,0 +1,25 @@
+.title_image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.content_image{
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+    float: left;
+}
+
+.content{
+	margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+p.pdf{
+margin: auto 50px;
+padding: 20px;
+text-align: center;
+font-family: "Times New Roman", Georgia, Serif;
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yunyi Liu--iWatch</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/site.css" rel="stylesheet" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <script src='javascript/slidetounlock.js'></script>
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+
+              setInterval( function() {
+              var seconds = new Date().getSeconds();
+              var sdegree = seconds * 6;
+              var srotate = "rotate(" + sdegree + "deg)";
+
+              $("#sec").css({"-moz-transform" : srotate, "-webkit-transform" : srotate});
+
+              }, 1000 );
+
+
+              setInterval( function() {
+              var hours = new Date().getHours();
+              var mins = new Date().getMinutes();
+              var hdegree = hours * 30 + (mins / 2);
+              var hrotate = "rotate(" + hdegree + "deg)";
+
+              $("#hour").css({"-moz-transform" : hrotate, "-webkit-transform" : hrotate});
+
+              }, 1000 );
+
+
+              setInterval( function() {
+              var mins = new Date().getMinutes();
+              var mdegree = mins * 6;
+              var mrotate = "rotate(" + mdegree + "deg)";
+
+              $("#min").css({"-moz-transform" : mrotate, "-webkit-transform" : mrotate});
+
+              }, 1000 );
+
+
+
+        });
+
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Yunyi Liu</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active navbar-manue"><a href="index.html"> Home </a></li>
+            <li class="navbar-manue"><a href="cv.html"> Resume </a></li>
+            <li class="navbar-manue"><a href="project.html"> Projects </a></li>
+            <li class="navbar-manue"><a href="contact.html"> Contact </a></li>
+            <li class="navbar-manue-last"><a href="about.html"> About me </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container topspacer">
+      <div class="row">
+        <div class="clock-center">
+          <ul id="clock">
+            <li id="watchpoint"></li>
+            <li id="sec"></li>
+            <li id="hour"></li>
+            <li id="min"></li>
+          </ul>
+
+          <div id="well">
+            <div class="unlock-content"><strong id="slider"></strong> <span>Slide to unlock</span></div>
+          </div>
+
+          <div class="clock-menu-lists">
+
+        <div class="ch-grid-top-first">
+                <ul class="ch-grid">
+
+            <li class="li-img-sm">
+              <a href="index.html" target="_blank">
+                <div class="ch-item ch-img-home">
+                  <div class="ch-info-wrap">
+                    <div class="ch-info">
+                      <div class="ch-info-front ch-img-home"></div>
+                      <div class="ch-info-back">
+                        <div class="content">Home</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              </li>
+
+
+        <li class="li-img-sm">
+                  <a href="https://www.google.com/maps/place/877+W+El+Repetto+Dr,+Monterey+Park,+CA+91754/@34.047097,-118.1424353,17z/data=!4m2!3m1!1s0x80c2cf894c68d57d:0x7f24f3642a8b23a9" target="_blank">
+            <div class="ch-item ch-img-googlemap">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-googlemap"></div>
+                  <div class="ch-info-back">
+                    <div class="content">Google Map</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          </li>
+                </ul>
+              </div>
+
+       <div class="ch-grid-top">
+                <ul class="ch-grid">
+
+        <li class="li-img-md">
+                  <a href="https://github.com/adrianhihi" target="_blank">
+            <div class="ch-item ch-img-github">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-github"></div>
+                  <div class="ch-info-back">
+                    <div class="content">GitHub</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          </li>
+
+        <li class="li-img-md">
+        <a href="http://www.linkedin.com/in/yunyiliu" target="_blank">
+            <div class="ch-item ch-img-linkedin">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-linkedin"></div>
+                  <div class="ch-info-back">
+                    <div class="content">Linkedin</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          </li>
+
+
+        <li class="li-img-md">
+                  <a href="https://twitter.com/Adrianhihi" target="_blank">
+            <div class="ch-item ch-img-twitter">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-twitter"></div>
+                  <div class="ch-info-back">
+                    <div class="content">Twitter</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          </li>
+                </ul>
+              </div>
+
+
+            <div class="ch-grid-middle">
+        <ul class="ch-grid">
+        <li class="li-img-md">
+          <a href="https://www.facebook.com/yunyiliu" target="_blank">
+            <div class="ch-item ch-img-facebook">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-facebook"></div>
+                  <div class="ch-info-back">
+                    <div class="content">Facebook</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li class="li-img-lg">
+          <a href="mailto:genius00003@gmail.com" target="_blank">
+            <div class="ch-item ch-img-email">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-email"></div>
+                  <div class="ch-info-back">
+                    <div class="content">Email</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </a>
+          </li>
+
+        <li class="li-img-lg">
+          <a href="tel:+8062529523" target="_blank">
+            <div class="ch-item ch-img-phone">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-phone"></div>
+                  <div class="ch-info-back">
+                    <div class="content">Phone</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          </li>
+        <li class="li-img-md">
+          <a href="skype:adrianhihi?chat" target="_blank">
+            <div class="ch-item ch-img-skype">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-skype"></div>
+                  <div class="ch-info-back">
+                    <div class="content">Skype</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          </li>
+        </ul>
+        </div>
+
+
+            <div class="ch-grid-bottom">
+                <ul class="ch-grid">
+
+        <li class="li-img-md">
+                  <a href="cv.html" target="_blank">
+            <div class="ch-item ch-img-resume">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-resume"></div>
+                  <div class="ch-info-back">
+                    <div class="content">Resume</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li class="li-img-lg">
+                  <a href="projects.html" target="_blank">
+            <div class="ch-item ch-img-projects">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-projects"></div>
+                  <div class="ch-info-back">
+                    <div class="content">Projects</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li class="li-img-sm">
+                 <a href="about.html" target="_blank">
+            <div class="ch-item ch-img-aboutme">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-aboutme"></div>
+                  <div class="ch-info-back">
+                    <div class="content">About</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+                </ul>
+              </div>
+
+            <div class="ch-grid-bottom-last">
+                <ul class="ch-grid">
+
+        <li class="li-img-sm">
+                  <a href="contact.html" target="_blank">
+            <div class="ch-item ch-img-contactme">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-contactme"></div>
+                  <div class="ch-info-back">
+                    <div class="content">Contact</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li class="li-img-sm">
+                  <a href="https://www.pinterest.com/adrianhihi/" target="_blank">
+            <div class="ch-item ch-img-pinterest">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-pinterest"></div>
+                  <div class="ch-info-back">
+                    <div class="content">Pinterest</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+                </ul>
+              </div>
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </div>
+
+    <footer>
+        <div class="center">
+          <hr>
+          <p class="text-center">© Copyright 2015 Yunyi Liu</p>
+      </div>
+    </footer>
+
+
+    <script src="javascript/bootstrap.min.js"></script>
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-62214121-2', 'auto');
+	  ga('send', 'pageview');
+
+     </script>
+
+ 
+  </body>
+</html>

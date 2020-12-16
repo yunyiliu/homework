@@ -1,0 +1,31 @@
+.title {
+
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: #c89c76;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding:50px;
+}
+
+div.img {
+    margin-left: 150px;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+    border-radius: 6px;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
